@@ -43,7 +43,6 @@ class Counter extends Component {
                         <li key={strResult.id} onClick={() => this.props.onDeleteResult(strResult.id)}>{strResult.value}</li>
                     ))}
                 </ul>
-                <span>Deployed</span>
             </div>
         );
     }
